@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+function handleRunTraining() {
+  console.log('Run training');
+}
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={handleRunTraining}>Run Training</button>
       </header>
     </div>
   );
